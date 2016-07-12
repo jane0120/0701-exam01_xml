@@ -1,0 +1,89 @@
+body{
+
+
+}
+
+
+.question input{
+
+}
+.aside ul{
+    list-style-type: none;
+}
+#btn1{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1100px;
+
+}
+#btn2{
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 1100px;
+
+}
+#btn3{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1100px;
+
+}
+#btn4{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 1100px;
+
+}
+
+.lable1,.lable2,.lable3,.lable4{
+    height: 100px;
+    width: 300px;
+    border-bottom:1px solid green;
+
+}
+#title{
+    position: absolute;
+    margin-top: -100px;
+    margin-left:600px;
+    z-index: 1;
+    
+    
+}
+.line{
+    position: relative;
+    opacity: .5;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    background: green;
+    width: 300px;
+    height: 100px;
+    margin-top: -69px;
+    border: 1px solid green;
+    z-index:-1;
+
+    
+}
+.lable1{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 400px;
+    z-index: 1;
+}
+.lable2{
+    position: relative;
+    z-index: 1;
+    margin-top: -100px;
+    margin-left: 780px;
+}
+.lable3{
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.lable4{
+    position: relative;
+    z-index: 1;
+    margin-top: -100px;
+    margin-left:780px;
+}
